@@ -21,6 +21,43 @@ main {
   margin-top: 0px;
   margin-bottom: 20px;
 }
+
+/*-------------
+  header style
+  -------------*/
+.head {
+  background-color: #562eff;
+  width: 100%;
+  height: 94px;
+  margin-bottom: 35px;
+}
+.head-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 72%;
+  margin-left: 14%;
+}
+.left-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.left-element img {
+  width: 41px;
+  height: 51px;
+}
+.right-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 /* -----------------
   top players style  
    ----------------- */

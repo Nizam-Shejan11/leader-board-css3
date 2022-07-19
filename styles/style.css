@@ -25,6 +25,7 @@ main {
 /*-------------
   header style
   -------------*/
+
 .head {
   background-color: #562eff;
   width: 100%;
@@ -179,7 +180,7 @@ hr {
     width: 100%;
   }
   .head {
-    width: 100%;
+    display: none;
   }
   .container {
     width: 100%;
@@ -193,5 +194,20 @@ hr {
   .blog,
   .courses {
     flex-direction: column;
+  }
+}
+
+/* tablet device  */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .players,
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
